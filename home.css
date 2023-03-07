@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.list{
+	
+	width: 100%;
+	height: 100px;
+	background-color: red;
+	
+}
+
+
+ul{
+	text-align: center;
+	
+	
+	
+}
+
+ul li{
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+	line-height: 100px;
+	
+	
+	
+}
+
+ul li a{
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: arial;
+	color: white;
+	padding: 0 50px;
+}
+
+ul li a:hover{
+	color:blue;
+}
+
+body{
+	
+	background: linear-gradient(blue, pink);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	
+	
+}
+
+#head{
+	
+	text-align: center;
+	margin-top: 10%;
+	
+	color: white;
+	
+	font-size: 50px;
+	font-family: 'Henny Penny';
+	letter-spacing: 3px;
+	
+	
+}
+
+#img1{
+	
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+	
+}
+
+
+.parent1{
+	
+	
+	position: relative;
+	
+	max-width: 100%;
+	height: 500px;
+	
+	background-color: yellow;
+	margin-top:10%;
+	
+	
+}
+
+.child1{
+	
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	
+}
+
+.child2{
+	
+	position: absolute;
+	left: 10%;
+	top: 5%;
+	
+	font-family: 'Bubblegum Sans';
+	letter-spacing: 3px;
+	
+}
+
+.child3{
+	
+	position: absolute;
+	top: 45%;
+	left: 74%;
+}
+
+.child3b{
+background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+.child3b:hover{
+ background-color: #3e8e41
+}
+
+.parent2{
+	
+	position: relative;
+	
+	max-width: 100%;
+	height: 500px;
+	
+	background-color: orange;
+	
+}
+
+.child4{
+	
+	position: absolute;
+	top: 20%;
+	left: 72%;
+	
+}
+
+.child5{
+	
+	position: absolute;
+	left: 74%;
+	top: 5%;
+	
+	font-family: 'Bubblegum Sans';
+	letter-spacing: 3px;
+}
+
+.child6{
+	
+	position: absolute;
+	top: 45%;
+	left: 10%;
+}
+
+.child6b{
+background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+	
+}
+
+.child6b:hover{
+background-color: #3e8e41
+}
+
+.parent3{
+	
+	position: relative;
+	
+	max-width: 100%;
+	height: 100px;
+	
+	background-color: black;
+	
+	
+	
+}
+
+.child7{
+	
+	color: white;
+	
+	position: absolute;
+	top: 20%;
+	left: 39%;
+	
+	font-size: 20px;
+	
+	
+}
